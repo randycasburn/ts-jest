@@ -1,5 +1,5 @@
-const strs = require('./base');
+import { setString, getString } from './base.js';
 
-strs.setString("This is the new string");
+setString("This is the new string");
 
-console.log(strs.getString());
+console.log(getString());

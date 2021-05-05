@@ -7,4 +7,4 @@ function getString(){
     return myString;
 }
 
-module.exports = { setString, getString }
+export { setString, getString }
